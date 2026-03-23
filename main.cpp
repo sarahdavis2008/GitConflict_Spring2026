@@ -8,6 +8,7 @@ void say(string s);
 int main()
 {
     cout << "Hello CS 150!\n";
+    say("Hello again from the SAY function!");
     return 0;
 }
 
