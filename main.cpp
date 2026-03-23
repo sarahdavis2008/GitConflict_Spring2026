@@ -3,6 +3,7 @@
 using namespace std;
 
 int add(int a, int b);
+void say(string s);
 
 int main()
 {
@@ -13,4 +14,9 @@ int main()
 int add(int a, int b)
 {
     return a + b;
+}
+
+void say(string s)
+{
+    cout << s << endl;
 }
